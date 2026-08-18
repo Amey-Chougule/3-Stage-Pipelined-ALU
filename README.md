@@ -76,29 +76,29 @@ The pipelined implementation achieves approximately **47.5% reduction in reporte
 
 The waveform demonstrates the operation of the pipelined ALU with clock, reset, input operands, operation selection, output, and zero-status signals.
 
-![Simulation Waveform](images/simulation-waveform.png)
+![Simulation Waveform](images/simulation-waveform.jpg)
 
 ## 🧩 RTL Schematic
 
 ### Synthesized RTL
 
-![RTL Schematic](images/rtl-schematic.png)
+![RTL Schematic](images/rtl-schematic.jpg)
 
 ### Detailed ALU Schematic
 
-![ALU Schematic](images/alu-schematic.png)
+![ALU Schematic](images/alu-schematic.jpg)
 
 ## ⏱️ Timing Analysis
 
 The implemented design was analyzed using Vivado timing reports to evaluate the critical data path and routing delay.
 
-![Timing Report](images/timing-report.png)
+![Timing Report](images/timing-report.jpg)
 
 ## ⚡ Power Analysis
 
 The implementation reported a total on-chip power of approximately **10.261 W**.
 
-![Power Analysis](images/power-analysis.png)
+![Power Analysis](images/power-analysis.jpg)
 
 ## 📈 Synthesis & Implementation
 
@@ -111,7 +111,7 @@ The Vivado Design Runs report shows successful synthesis and implementation with
 - **0 DSP**
 - **10.261 W reported total power**
 
-![Design Runs](images/design-runs.png)
+![Design Runs](images/design-runs.jpg)
 
 ## 🛠️ Tools & Technologies
 
@@ -126,25 +126,21 @@ The Vivado Design Runs report shows successful synthesis and implementation with
 ## 📂 Repository Structure
 
 ```text
-3-Stage-Pipelined-ALU/
-│
-├── README.md
-├── RTL/
-│   └── *.v
-│
-├── Testbench/
-│   └── *.v
-│
+3-Stage-Pipelined-ALU---Verilog-HDL/
+|
 ├── images/
-│   ├── design-runs.png
-│   ├── rtl-schematic.png
-│   ├── alu-schematic.png
-│   ├── timing-report.png
-│   ├── power-analysis.png
-│   └── simulation-waveform.png
+│   ├── design-runs.jpg
+│   ├── rtl-schematic.jpg
+│   ├── alu-schematic.jpg
+│   ├── timing-report.jpg
+│   ├── power-analysis.jpg
+│   └── simulation-waveform.jpg
+|
+├── 3-Stage 16-Bit ALU Project Report.pdf
+|
+├── ALU_16bit_3SP.rar
 │
-└── Documentation/
-    └── Project_Report.pdf
+└── README.md
 ```
 
 ## 🎯 Project Objective
