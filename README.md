@@ -86,7 +86,7 @@ The waveform demonstrates the operation of the pipelined ALU with clock, reset, 
 
 ### Detailed ALU Schematic
 
-![ALU Schematic](images/alu-schematic.jpg)
+![ALU Schematic](images/rtl-schematic.jpg)
 
 ## ⏱️ Timing Analysis
 
